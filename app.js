@@ -1,4 +1,4 @@
-let count = 12
+let count = 1;
 
 
 function render(){
@@ -9,16 +9,16 @@ function render(){
 let prev = document.getElementById('prev')
 let next = document.getElementById('next')
 
-prev.onclick = funcion(){
+prev.onclick = function(){
     if (count > 1) {
-        count= count -1
+        count = count -1;
         render()
     }
 }
 
-next.onclick = funcion(){
+next.onclick = function(){
     if (count < 650){
-        count= count + 1
+        count = count + 1;
         render()
     }
 }
